@@ -1,0 +1,41 @@
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(187, 243, 243);
+    font-size: 2em;
+}
+
+.container{
+background-color: black;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap
+}
+
+.Van{
+padding: 20px;
+border-radius: 15px;
+background-color: rgb(37, 55, 65);
+margin: 10px 5px;
+
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border: 5px solid rgba(95, 158, 160, 0.486);
+    border-radius: 5px;
+}
+
+#principal{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+
+}
+
+.negrito{
+    font-weight: bold;
+    font-size: 2em;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
