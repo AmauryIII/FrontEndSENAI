@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#pai{
+    width: 400px;
+    height: 100px;
+    background-color: cadetblue;
+    display: flex; /*Display Flex troca a orientação dos elementos */ 
+    /* Quando colocado em collumn inverte os comandos */
+    flex-direction: row; /* flex-direction troca a direção do flexbox*/
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap; /* evitar distorção ou falta de espaço = wrap */
+    gap: 5px; /*margem entre elementos*/
+}
+
+.filhos{
+    width: 35px;
+    height: 35px;
+    background-color: darkslategray;
+    border: 1px rgb(4, 45, 58) dashed;
+    text-align: center;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+a{
+    color: #ffffff;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 60px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
