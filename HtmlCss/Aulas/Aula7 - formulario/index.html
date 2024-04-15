@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head> 
+<body>
+    <div class="topico">
+        <h3>FORMULÁRIO</h3>
+        <form action="https.www.google.com" method="post">
+            <div class="espaco">
+                <label for="nomeDoUsuario">Nome do Usuário</label>
+                <input type="text" name="" id="nomeDoUsuario">
+            </div>
+            
+            <div class="espaco">
+                <label for="senhaDoUsuario">Insira a sua senha</label>
+                <input type="password" id="senhaDoUsuario">
+            </div>
+            <div class="espaco">
+                <label for="emailDoUsuario">Insira o seu email</label>
+                <input type="email" id="emailDoUsuario">
+            </div>
+            <div class="espaco">
+                <input type="submit" value="Cadastrar">
+                <!-- <button type="submit">Cadastrar</button> -->
+            </div>
+            <div class="espaco">
+                <label for="aceitarNotficar">Aceita notificações no email?</label>
+                <input type="checkbox" id="aceitarNotficar">
+            </div>
+            <div class="espaco">
+                <label for="nascimentoDoUsuario">Insira a data de nascimento</label>
+                <input type="date" name="" id="nascimentoDoUsuario">
+            </div>
+            <div class="espaco">
+                <label for="estadoDoUsuario">Selecione o seu Estado</label>
+                <select id="estadoDoUsuario">
+                <option value="DF">Distrito Federal</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MA">Maranhão</option>
+                </select>
+                
+            </div>
+                
+            <div class="espaco">
+                <h3>Nivel de Escolaridade</h3>
+                <label for="ensinoBasico">Ensino Basico</label>
+                <input type="radio" id="ensinoBasico" name="ensino">
+                <hr>
+                <label for="ensinoMedio">Ensino Médio</label>
+                <input type="radio" id="ensinoMedio" name="ensino">
+                <hr>
+                <label for="ensinoSuperior">Ensino Superior</label>
+                <input type="radio" id="ensinoSuperior" name="ensino">
+                <hr>
+            </div>
+
+            <div class="espaco">
+                <label for="idadeUsuario">Insira sua idade</label>
+                <input type="number" min="0" max="150" id="idadeUsuario">
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+</html>
