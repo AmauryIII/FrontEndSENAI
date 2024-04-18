@@ -1,0 +1,19 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: cursive;
+}
+
+.container{
+  width: 60%;
+  height: 800px;
+  background-color: rgba(214, 213, 212, 0.76);
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 2px solid darkgrey;
+  }
+
+  .formulario{
+    margin: 10px;
+    text-align: center;
+  }
