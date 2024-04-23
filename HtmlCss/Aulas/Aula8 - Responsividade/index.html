@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 860px)" href="./src/mobile.css">
+    <link rel="shortcut icon" href="./src/img/menuIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" media="screen and (orientation : landscape)" href="./src/teste.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="btnMobile" onclick="btnMobileTrocar()" type="button">
+                <img src="./src/img/menuIcon.svg" alt="Menu">
+            </button>
+
+            <ul id="menuMobile">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        
+            <ul id="menuPc">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <picture>
+            <source media="(max-width: 860px)" srcset="./src/img/mulherdancandoMenor.jpg">
+            <img src="./src/img/mulherdancando.jpg" alt="Uma mulher dançando">
+     </picture>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora deleniti aut aliquam itaque beatae atque et optio nostrum doloremque iusto commodi placeat, consequuntur tenetur velit repellat magnam recusandae distinctio nisi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo ut aliquam ullam obcaecati beatae itaque officia magnam recusandae aspernatur? Eos, numquam ducimus. Nemo eaque libero, rerum id praesentium facere.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo ut aliquam ullam obcaecati beatae itaque officia magnam recusandae aspernatur? Eos, numquam ducimus. Nemo eaque libero, rerum id praesentium facere.</p>
+    </main>
+    
+    <footer>
+        <p>Todos os direitos reservados </p>
+    </footer>
+
+    <script>
+        function btnMobileTrocar(){
+          if (menuMobile.style.display == "flex"){
+            menuMobile.style.display = "none";
+          }else{
+            menuMobile.style.display = "flex";
+          }
+        }
+    </script>
+</body>
+</html>

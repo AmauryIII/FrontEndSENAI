@@ -1,0 +1,43 @@
+header{
+    justify-content: center;
+}
+
+#menuPc{
+    display: none;
+}
+
+#menuMobile{
+    display: none;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btnMobile{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+li{
+    width: 50%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover{
+    border-radius: 10px;
+    background-color: rgb(166, 166, 166);
+    transition: 0.5s;
+    cursor: pointer;
+}
