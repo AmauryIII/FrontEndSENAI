@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArtMuseum</title>
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 740px)" href="./src/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 450px)" href="./src/mobile1.css">
     <link rel="shortcut icon" href="./src/img/icons8-câmera-32.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <h2>ArtMuseum</h2>
         <nav>
-            <ul>
+            <button id="btnMobile" onclick="bntMobileTrocar()" type="button">
+                <img src="./src/img/menuIcon.svg" alt="Menu">
+            </button>
+
+            <ul id="menuMobile">
+                <li>Home</li>
+                <li>Galeria</li>
+                <li>Contato</li>
+            </ul>
+
+            <ul id="menuPc">
                 <li>Home</li>
                 <li>Galeria</li>
                 <li>Contato</li>
@@ -24,12 +36,63 @@
             <h3>Destaque da semana</h3>
             <div class="linha"></div>
         </div>
-        <div id="container">
+        <div id="containerEli">
             <h3>Elizabeth</h3>
-            <img src="./src/img/elizabeth.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla sapiente facere, totam blanditiis corporis vitae hic facilis provident vero, illo officia minima. Reprehenderit hic corporis, quia alias a esse.</p>
+            <picture>
+                <source media="(max-width:740px)" srcset="./src/img/elizabethMenor.png">
+                <img src="./src/img/elizabeth.jpg" alt="">
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla sapiente facere, totam blanditiis corporis vitae hic facilis provident vero, illo officia minima. Reprehenderit hic corporis, quia alias a esse.illo officia minima. Reprehenderit hic corporis, quia alias a esse?</p>
             <a href="#">Ver Sobre</a>
         </div>
+
+        <div id="subTexto">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur quae eius, deserunt perferendis dignissimos enim illo assumenda alias, id ex quaerat eum expedita! Dignissimos recusandae dolore harum ut esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ullam dignissimos facere alias consectetur recusandae ipsam consequuntur doloribus, labore inventore vero perspiciatis omnis eaque nemo hic! Exercitationem similique dolores aliquid?</p>
+        </div>
+
+        <div id="containerArtTopo">
+            <h3>Artes</h3>
+            <div class="linha"></div>
+        </div>
+
+        <div id="containerArt">
+            <div class="quadro">
+                <h3>Título da arte</h3>
+                <img src="./src/img/arte1.jpg" alt="">
+                <p>Descrição da arte</p>
+                <a href="#">Ver sobre</a>
+            </div>
+            
+            <div class="quadro">
+                <h3>Título da arte</h3>
+                <img src="./src/img/arte3.jpg" alt="">
+                <p>Descrição da arte</p>
+                <a href="#">Ver sobre</a>
+            </div>
+
+            <div class="quadro">
+                <h3>Título da arte</h3>
+                <img src="./src/img/arte2.jpg" alt="">
+                <p>Descrição da arte</p>
+                <a href="#">Ver sobre</a>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <div id="rodape">
+            <p>ArtMuseum © 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        function bntMobileTrocar(){
+            if (menuMobile.style.display == "flex"){
+                menuMobile.style.display = "none";
+            }else{
+                menuMobile.style.display = "flex";
+            }
+        }
+    </script>
 </body>
 </html>

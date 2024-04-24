@@ -36,26 +36,130 @@ nav ul{
 
 .linha{
     height: 2px;
-    width: 400px;
+    width: 600px;
     background-color: red;
     margin: 10px auto;
 }
 
-#container{
+#containerEli{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    max-width: 70%;
+    border: 1px solid rgb(170, 169, 169);
+    width: 55%;
+    max-width: 800px;
+    border-radius: 5px;
+    margin-top: 20px;
 
 }
 
-#container img{
-    max-width: 500px;
+#containerEli picture{
+    text-align: center;
 }
 
-#container p{
+#containerEli img{
+    max-width: 90%;
+    margin-bottom: 15px;
+}
+
+#containerEli p{
     font-size: 9px;
     text-align: center;
+    color: gray;
+    margin: 0px 10px;
+}
+
+#containerEli h3{
+    margin-top: 15px;
+    margin-bottom: 15px ;
+}
+
+#containerEli a{
+    text-decoration: none;
+    background-color: rgb(238, 30, 72);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+#subTexto{
+    text-align: center;
+    width: 55%;
+    max-width: 800px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+#subTexto p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#containerArtTopo{
+    text-align: center;
+}
+
+.quadro{
+    width: 200px;
+    height: 220px;
+    border: 1px solid rgb(170, 169, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    margin: 20px 5px;
+}
+
+.quadro img{
+    max-width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.quadro h3{
+    margin-top: 10px;
+}
+
+.quadro p{
+    color: rgb(93, 87, 87);
+    font-size: 12px;
+}
+
+.quadro a{
+    text-decoration: none;
+    background-color: rgb(238, 30, 72);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+#containerArt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#rodape{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(52, 47, 47);
+    text-align: center;
+}
+
+#rodape p{
+    color: rgb(250, 236, 219);
+    font-size: 10px;
+    padding-top: 15px;
+}
+
+#menuMobile{
+    display: none;
+}
+
+#btnMobile{
+    display: none;
 }

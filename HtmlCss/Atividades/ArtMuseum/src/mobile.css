@@ -1,0 +1,89 @@
+#containerEli{
+    width: 90%;
+}
+
+#containerEli img{
+    max-width: 95%;
+    margin-bottom: 15px;
+}
+
+#subTexto{
+    width: 90%;
+}
+
+.quadro{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rgb(170, 169, 169);
+}
+
+.quadro img{
+    max-width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.quadro h3{
+    margin-top: 10px;
+}
+
+.quadro p{
+    color: rgb(93, 87, 87);
+    font-size: 12px;
+}
+
+.quadro a{
+    text-decoration: none;
+    background-color: rgb(238, 30, 72);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+#containerArt{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    width: 400px;
+}
+
+#menuMobile{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menuPc{
+    display: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(93, 87, 87);
+    border-radius: 7px;
+    
+}
+
+#btnMobile{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+li{
+
+}
+
+li:hover{
+    border-radius: 7px;
+    background-color: rgb(166, 166, 166);
+    transition: 0.5s;
+    cursor: pointer;
+}
