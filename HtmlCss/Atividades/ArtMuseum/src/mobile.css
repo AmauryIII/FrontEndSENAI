@@ -51,9 +51,15 @@
 }
 
 #menuMobile{
+    width: 100%;
     display: none;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
+
+#menuMobile ul{
+    list-style: none;
+    
 }
 
 #menuPc{
