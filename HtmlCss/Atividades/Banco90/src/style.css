@@ -1,0 +1,188 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #ba2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#menu img{
+    width: 50px;
+}
+
+#menu nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-weight: bold;
+}
+
+#menu nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#botao a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 18px 13px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+#linha{
+    width: 100%;
+    height: 15px;
+    background-color: aliceblue;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#caixaBanner{
+    background-color: rgba(255, 166, 0, 0.458);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+
+#caixaBanner h2{
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#caixaBanner p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+#caixaBanner a{
+    background-color: #302727;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    border: 2px solid #f2511b;
+    border-radius: 5px;
+
+}
+
+#pag h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.formaDePag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 250px;
+    border: 1px solid grey;
+}
+
+.formaDePag img{
+    width: 90px;
+
+}
+
+.formaDePag a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+
+}
+
+#containerPag{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#servicos{
+    width: 100%;
+    height: 400px;
+    background-color: #302727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#servicosTexto{
+    color: white;
+}
+
+#servicosTexto h2{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#servicosTexto p{
+    margin-left: 15px;
+}
+
+#servicosImg{
+    width: 40%;
+}
+
+#servicosImg img{
+    width: 100%;
+}
+
+#cartao{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#cartao h2{
+    text-transform: uppercase;
+}
+
+#carroselImg{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#carroselImg img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
