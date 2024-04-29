@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#cliente{
+    width: 100%;
+}
+
+#agrupamentoCartoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cartao{
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+#cartao1{
+    background-image: url(./img/cartaoUm.jpg);
+    background-position: center;
+}
+
+#cartao2{
+    background-image: url(./img/cartaoDois.jpg);
+    background-position: center;
+}
+
+#cartao3{
+    background-image: url(./img/cartaoTres.jpg);
+    background-position: center;
+}
+
+#horario{
+    width: 70%;
+    background-color: white;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.63);
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+th{
+    background-color: #ba2d2d;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+th:empty{
+    background-color: white;
+    border: none;
+}
+
+th:hover{
+    background-color: rgb(232, 232, 232);
+    color: #ba2d2d;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #ba2d2d;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #ba2d2d;
+}
