@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+
+header{
+    width: 100%;
+
+}
+
+#topo{
+    width: 100%;
+    height: 60px;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#topo p{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#submenu{
+    display: flex;
+    gap: 20px;
+}
+
+#submenu img{
+    width: 32px;
+    height: 32px;
+}
+
+#submenu a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#whatsapp{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#duvida{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#titulo{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo h1{
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #282828;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#menu1 ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 200;
+    align-items: center;
+    text-decoration: 
+}
+
+#menu1 a{
+    text-decoration: none;
+    color: #282828;
+}
+
+#menu2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#menu2 img{
+    width: 32px;
+    height: 32px;
+}
+
+#menu2 a{
+    text-decoration: none;
+    color: #282828;
+    font-weight: 200;
+}
+
+#submenu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#banners{
+    width: 100%;
+    height: 625px;
+    background-color: aliceblue;
+    background-image: url(./img/banner1.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#banners h1{
+    font-size: 4em;
+    font-weight: 200;
+    color: #282828;
+    letter-spacing: 5px;
+}
+
+#banners a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #282828;
+    border: 1px solid #282828;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+}
