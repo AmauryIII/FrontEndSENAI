@@ -1,0 +1,17 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  background-color: azure;
+}
+
+main{
+  width: 600px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: 0% auto;
+}
+
+main img{
+  max-width: 600px;
+  margin-bottom: 0%;
+}
