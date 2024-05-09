@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../font/GothamMedium_1.ttf);
+}
+
+*{
+    font-family: Gotham;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.nav-link, .active, .navbar-nav .nav-link.active, .navbar-brand .nav-link.show{
+    color: var(--white);
+}
+
+.active{
+    border-bottom: var(--primario) 3px solid;
+}
+
+:root{
+    --primario : #1db954;
+    --secundario : #1eb760;
+    --preto : #191414;
+    --white : #ffffff;
+}
+
+body{
+height: 100vh;
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgb(31, 2, 2) 0%, rgb(131, 3, 14) 100%);
+}
+
+.card img{
+    border-radius: 0%;
+}
+
+.card{
+    border-radius: 0%;
+    border: none;
+}
