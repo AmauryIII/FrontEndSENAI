@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(90, 171, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,select,button{
+    border: none;
+    padding: 5px;
+    border: 2px solid rgb(72, 147, 212);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+select,button{
+    background-color: rgb(104, 169, 223);
+    color: white;
+    cursor: pointer;
+}
+
+input:hover,select:hover,button:hover{
+    padding: 6px;
+}
+
+#principal{
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#carro{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    gap: 5x;
+    flex-direction: column;
+}
+
+#janelas,#rodas{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+#janelas{
+    justify-content: end;
+}
+
+#rodas{
+    justify-content: space-between;
+}
+
+.janela{
+    width: 50px;
+    height: 100%;
+    background-color: rgb(160, 193, 221);
+}
+
+.roda{
+    width: 50px;
+    height: 100%;
+    margin-top: 8px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 80%;
+}
+
+.vermelho{
+    background-color: rgb(172, 2, 2);
+}
+
+.cinza{
+    background-color: rgb(71, 71, 71);
+}
+
+.preto{
+    background-color: black;
+}
+
+.branco{
+    background-color: rgb(218,218,218);
+}
