@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Personagem de Jogo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Meu Personagem de Jogo (Pokémon)</h1>
+            <div id="stats">
+                <p>Nome: Pikachu</p>
+                <p>Vida: <span id="vida">100</span></p>
+                <p>Dano: <span id="dano">10</span></p>
+                <p>PowerUps: <span id="powerups">0</span></p>
+            </div>
+            <button onclick="tomarDano()">Tomar Dano</button>
+            <button onclick="curar()">Curar</button>
+            <button onclick="evoluir()">Evoluir</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
